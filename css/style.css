@@ -109,13 +109,13 @@ header nav {
 }
 
 .social a{
-    background-color: var(--dark);
-    color: var(--lite);
+    background-color: transparent;
     align-items: center;
     justify-content: center;
     width: 35px;
     height: 35px;
-    border-radius: 50%;
+    border-width: 0px;
+    border-radius: 30%;
     margin-right: 0.6rem;
 }
 
