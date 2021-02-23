@@ -1,6 +1,9 @@
 .flex{
     display: flex;
 }
+.flex-1{
+  flex: 1;
+}
 .justify-between{
     justify-content: space-between;
 }
@@ -54,8 +57,8 @@
     font-size: 16px;  
     border: none;
     outline: none;
-    color:white;
-    background-color: inherit;
+    color:rgb(247, 250, 246);
+    background-color:inherit;
     font-size: 20px;
     font-family: inherit;
     margin-top: 0;
@@ -82,12 +85,14 @@
     padding-top: 8px;
     margin-right: 10rem;
     text-decoration: none;
+    color:blueviolet !important;
+    font-weight: 600;
     display: block;
-
   }
   
   .dropdown-item a:hover {
-    background-color: inherit;
+   color: var(--primary) !important;
+    
   }
   
   .dropdown:hover .dropdown-item {

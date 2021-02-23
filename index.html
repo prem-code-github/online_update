@@ -14,12 +14,42 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
+    <div class="navigation">
+        <nav class="flex  item-center justify-between">
+            <div class="left flex item-center">
+                <div class="section-heading">
+                    <a class="logo" href="#">CODE<span>OPERATION</span></a>
+                </div>
+                <div>
+                    <a href="#">HOME</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">SERVICES
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-item">
+                            <a href="#">link 1 for my channel</a>
+                            <a href="#">Link 2 for project</a>
+                            <a href="#">Link 3 for my business website</a>
+                        </div>
+                    </div>
+                    <a href="#">PAGES</a>
+                    <a href="#">BLOG</a>
+                    <a href="#about">ABOUT</a>
+                </div>
+            </div>
+            <div class="right">
+                <a href="#">
+                    <button class="btn btn-primary">Contact</button>
+                </a>
+            </div>
+        </nav>
+    </div>
+    <div class="header">
         <div class="container">
-            <div class="navigation">
+            <!--<div class="navigation">
                 <nav class="flex  item-center justify-between">
                     <div class="left flex item-center">
-                        <div class="branding section-heading">
+                        <div class="section-heading">
                             <a class="logo" href="#">CODE<span>OPERATION</span></a>
                         </div>
                         <div>
@@ -36,7 +66,7 @@
                             </div>
                             <a href="#">PAGES</a>
                             <a href="#">BLOG</a>
-                            <a href="#">ABOUT</a>
+                            <a href="#about">ABOUT</a>
                         </div>
                     </div>
                     <div class="right">
@@ -45,7 +75,7 @@
                         </a>
                     </div>
                 </nav>
-            </div>
+            </div>-->
         <div class="hero flex item-center justify-between">
             <div style="max-width: 300px" style="height: 350px;">
                 <div class="hovereffect">
@@ -89,8 +119,8 @@
               </div>
         </div>
     </div>
-    </header>
-    <section class="home">
+</div>
+    <section class="project">
       <div class="container">
           <div class="heading">
                 <h1 class="section-heading item-center"><span>OUR</span> RECENT <span>PROJECCT</span></h1>
@@ -128,8 +158,27 @@
           </div>
       </div>
     </section>
-    <section>
-
+    <section class="about" id="about" >
+        <div class="container flex item-center">
+            <div flex-1>
+                <img class="about-me" src="./image/prem-about.jpg" alt="">
+            </div>
+            <div flex-1>
+                <div class="self">
+                    <h1 class="section-heading">About <span>Me</span></h1>
+                    <h3>Hello! i'm Prem kumar <span>A College Student</span></h3>
+                    <p>im pursuing engineering from UNIVERSITY OF ENGINEERING & MANAGEMENT, JAIPUR .
+                        I have completed my python ,c++,c and html as side course
+                    </p>
+                </div>
+                <div class="social">
+                    <a href="https://www.facebook.com/prem.vishwakarma.16547/"><img src="./image/facebook.svg" alt=""></a>
+                    <a href="https://twitter.com/prem_7780"><img src="./image/twitter.svg" alt=""></a>
+                    <a href="https://github.com/prem-code-github"><img src="./image/github.svg" alt=""></a>
+                    <a href="https://www.instagram.com/mr.prem_raj/"><img src="./image/instagram.svg" style="width: 100%;" alt=""></a>
+                </div>
+            </div>
+        </div>
     </section>
     <script>
         var myIndex = 0;
