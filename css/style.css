@@ -17,7 +17,7 @@ body{
     -webkit-font-smoothing: antialiased;
 }
 
-.header{
+header{
     background: var(--dark);
     clip-path: polygon(0 0, 100% 0 ,100% 100% ,80% 87% ,0 100%);
 }
@@ -253,4 +253,71 @@ section.about .social a img{
 section.about .social a:hover{
     background: var(--primary);
     transition: all .3s ease;
+}
+section.contact .contact-me {
+    padding: 6rem 0;
+    background: linear-gradient(rgb(52, 180, 219),rgb(150, 236, 150));
+}
+section.contact .contact-me .header{
+    font-family: 'lato' ,sans-serif;
+    font-size: 20px;
+    margin-bottom: 3rem;
+    margin-left: 12%;
+    text-align: center;
+    font-weight: 500;
+}
+.contact-me{
+    width: 100%;
+    padding: 0 20px;
+}
+.contact-me .form{
+    max-width: 550px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+.input_fields{
+display: flex;
+flex-direction: column;
+margin-right: 4%;
+}
+.input_fields,.msg{
+    width: 48%;
+    margin-right: 10PX;
+}
+.input_fields .input, .msg textarea{ 
+    border: 0;
+    margin: 10px 0;
+    background: transparent;
+    border-bottom: 2px solid rgb(99, 228, 228);
+    padding: 2px;
+    color:  rgb(99, 228, 228);
+    width: 100%;
+}
+.msg textarea{
+    height: 210px;
+    margin-right: 10px;
+    margin-top: 4%;
+    resize: none;
+}
+::-webkit-input-placeholder{
+    color:violet
+}
+::-moz-input-placeholder{
+    color:violet
+}
+::-ms-input-placeholder{
+    color:violet
+}
+.msg .btn{
+    background: #39b7dd;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-transform: uppercase;
 }
