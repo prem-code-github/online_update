@@ -61,7 +61,7 @@
     background-color:inherit;
     font-size: 20px;
     font-family: inherit;
-    margin-top: 0;
+    margin-top: 1;
     margin-right: 1rem;
   }
   
@@ -75,6 +75,7 @@
 .dropdown-item {
     display: none;
     position: absolute;
+    margin-left: -2.5rem;
     background-color:inherit;
     min-width: 160px;
     z-index: 1;
@@ -84,14 +85,17 @@
     float: none;
     padding-top: 8px;
     margin-right: 10rem;
+    margin-left: -5rem;
     text-decoration: none;
     color:blueviolet !important;
     font-weight: 600;
+    font-size: 15px !important;
     display: block;
   }
   
   .dropdown-item a:hover {
    color: var(--primary) !important;
+   margin-top: 1rem;
     
   }
   
