@@ -46,7 +46,6 @@ header{
     color: var(--pure);
     text-decoration: none;
     margin-right: 2rem;
-    margin-left: 2.5rem;
     font-size: 20px;
     transition: all .3s ease;
 }
